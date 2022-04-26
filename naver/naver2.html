@@ -13,13 +13,26 @@
 <body>
     <header>
         <div id="header-center"> <!-- 가운데 정렬용 div -->
-            <h1><a href="https://www.naver.com">네이버</a></h1>
-            <h2>검색창</h2>
-            <fieldset>
-                <legend>검색</legend>
-                <input />
-                <button>검색</button>
-            </fieldset>
+            <span>네이버를 시작페이지로</span>
+            <span>쥬니어네이버</span>
+            <span>해피빈</span>
+
+            <div id="header-search">
+                <a href="https://www.naver.com">
+                    <h1>
+                        <span>네이버</span>
+                    </h1>
+                </a>
+                <h2 class="blind">검색창</h2>
+                <fieldset>
+                    <legend class="blind">검색</legend>
+                    <input />
+                    <button>
+                        <span class="blind">검색</span>
+                        <span class="search_icon"></span>
+                    </button>
+                </fieldset>
+            </div>
         </div>
     </header>
 
