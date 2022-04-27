@@ -18,6 +18,8 @@
     vertical-align: top;
     content: '';
     background-image: url(./sp_main_dba1af.png);
+    position: relative;
+    top: -6px;
 }
 
 #header-search a {
@@ -43,12 +45,16 @@
     height: 56px;
     display: inline-block;
     border: 2px solid #19ce60;
+    position: relative;
 }
 
 #header-search fieldset input {
+    width: 444px;
+    height: 26px;
     border: none;
     padding: 0;
     outline: none;
+    vertical-align: top;
 }
 
 #header-search fieldset button {
@@ -57,6 +63,9 @@
     border: none;
     padding: 0;
     background: #19ce60;
+    position: absolute;
+    right: -2px;
+    top: -2px;
 }
 
 .search_icon {
