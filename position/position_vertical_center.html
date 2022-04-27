@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position_vertical_center</title>
+
+    <style>
+        .contentBox {
+            position: relative;
+            height: 200px;
+            margin: 10px;
+            background: #ddd;
+        }
+
+        .contentBox_item {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: 0;
+            transform: translate(-50%, -50%);
+        }
+
+        .contentBox1 {
+            position: relative;
+            height: 200px;
+            margin: 10px;
+            background: #ddd;
+        }
+
+        .contentBox_item1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: 0;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="contentBox">
+        <h1 class="contentBox_item">item</h1>
+    </div>
+
+    <div class="contentBox1">
+        <span class="contentBox_item1">item</span>
+    </div>
+</body>
+</html>
