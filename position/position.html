@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        div {
+            display: inline-block;
+            width: 500px;
+            height: 100px;
+            border: 2px solid #29da5e;
+            position: relative;
+            /* display: table; */
+        }
+
+        button {
+            width: 100px;
+            height: 100px;
+            background-color: #29da5e;
+            border: none;
+            position: absolute;
+            right: -1px;
+            top: -2px;
+        }
+
+        #search_icon {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            background-image: url(../naver/sp_main_dba1af.png);
+            background-repeat: no-repeat;
+            background-size: 457px 434px;
+            background-position: -420px 0;
+        }
+
+        h1 {
+            vertical-align: middle;
+            display: table-cell;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button>
+            <span id="search_icon"></span>
+        </button>
+    </div>
+
+    <div>
+        <h1>
+            안녕하세요
+        </h1>
+    </div>
+</body>
+</html>
