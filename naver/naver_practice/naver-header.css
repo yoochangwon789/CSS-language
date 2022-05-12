@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header_center {
+    height: 160px;
+    margin: 0 auto;
+}
+
+.group_flex {
+    width: 1130px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.naver_logo {
+    display: inline-block;
+    width: 222px;
+    height: 53px;
+    background-position: 0 -158px;
+    background-size: 457px 434px;
+    background-repeat: no-repeat;
+    background-image: url(../sp_main_dba1af.png);
+}
+
+.search_area {
+    display: inline-block;
+    width: 582px;
+}
+
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
