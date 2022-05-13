@@ -10,6 +10,9 @@ body {
 h1 {
     display: inline-block;
     vertical-align: middle;
+    position: relative;
+    left: -17px;
+    top: 6px;
 }
 
 .blind {
@@ -31,6 +34,7 @@ h1 {
 }
 
 .group_flex {
+    box-sizing: content-box;
     width: 1130px;
     height: 100%;
     margin: 0 auto;
@@ -51,9 +55,9 @@ h1 {
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 20px;
     width: 582px;
-    top: 0px;
+    top: 7px;
+    left: 0px;
 }
 
 .search_fieldset {
