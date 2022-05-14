@@ -33,6 +33,25 @@ h1 {
     margin: 0 auto;
 }
 
+.service_area {
+    position: relative;
+}
+
+.start_naver_page {
+    position: relative;
+    right: 160px;
+}
+
+.junior_naver {
+    position: relative;
+    right: 50px;
+}
+
+.happybin {
+    position: relative;
+    right: 0;
+}
+
 .group_flex {
     box-sizing: content-box;
     width: 1130px;
