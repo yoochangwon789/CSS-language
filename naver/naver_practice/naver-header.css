@@ -12,7 +12,7 @@ h1 {
     vertical-align: middle;
     position: relative;
     left: -17px;
-    top: 6px;
+    top: 25px;
 }
 
 .blind {
@@ -38,17 +38,22 @@ h1 {
 }
 
 .start_naver_page {
-    position: relative;
-    right: 160px;
+    position: absolute;
+    top: 11px;
+    right: 162px;
+    font-size: 11px;
+    color: #404040;
 }
 
 .junior_naver {
-    position: relative;
+    position: absolute;
+    top: 0;
     right: 50px;
 }
 
 .happybin {
-    position: relative;
+    position: absolute;
+    top: 0;
     right: 0;
 }
 
@@ -75,7 +80,7 @@ h1 {
     display: inline-block;
     vertical-align: middle;
     width: 582px;
-    top: 7px;
+    top: 27px;
     left: 0px;
 }
 
