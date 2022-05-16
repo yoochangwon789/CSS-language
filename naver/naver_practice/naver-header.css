@@ -12,7 +12,7 @@ h1 {
     vertical-align: middle;
     position: relative;
     left: -17px;
-    top: 25px;
+    top: 27px;
 }
 
 .blind {
@@ -39,22 +39,59 @@ h1 {
 
 .start_naver_page {
     position: absolute;
-    top: 11px;
-    right: 162px;
+    top: 12px;
+    right: 161px;
     font-size: 11px;
     color: #404040;
 }
 
-.junior_naver {
+.start_naver_page_icon {
+    display: inline-block;
     position: absolute;
-    top: 0;
-    right: 50px;
+    width: 26px;
+    height: 26px;
+    margin: -3px 0 0 3px;
+    background-size: 457px 434px;
+    background-position: -308px -345px;
+    background-repeat: no-repeat;
+    background-image: url(../sp_main_dba1af.png);
+}
+
+.sa_bar {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: -38px;
+    width: 1px;
+    height: 10px;
+    background-color: #e4e8eb;
+}
+
+.junior_naver {
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    top: 15px;
+    right: 54px;
+    background-size: 457px 434px;
+    background-position: -200px -330px;
+    background-repeat: no-repeat;
+    background-image: url(../sp_main_dba1af.png);
 }
 
 .happybin {
+    display: inline-block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 12px;
+    right: 5px;
+    width: 34px;
+    height: 11px;
+    background-size: 457px 434px;
+    background-position: -369px -299px;
+    background-repeat: no-repeat;
+    background-image: url(../sp_main_dba1af.png);
+    margin: 3px 3px 2px;
 }
 
 .group_flex {
@@ -79,8 +116,8 @@ h1 {
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    width: 582px;
-    top: 27px;
+    width: 590px;
+    top: 28px;
     left: 0px;
 }
 
@@ -119,6 +156,8 @@ h1 {
 }
 
 .ico_search {
+    position: relative;
+    top: 2px;
     width: 22px;
     height: 22px;
     display: inline-block;
