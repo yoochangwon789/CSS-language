@@ -64,8 +64,8 @@ h1 {
 .sa_bar {
     display: inline-block;
     position: absolute;
-    top: 4px;
-    right: -38px;
+    top: 3px;
+    right: -37px;
     width: 1px;
     height: 10px;
     background-color: #e4e8eb;
