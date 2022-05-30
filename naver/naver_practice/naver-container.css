@@ -1,4 +1,5 @@
 .container {
+    box-sizing: content-box;
     position: relative;
     width: 1130px;
     padding: 20px 30px;
